@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam&display=swap');
+* {
+    margin: 0;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(78, 78, 78);
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kufam', cursive;
+}
+
+#heading button {
+    width: 10%;
+    background: none;
+    font-family: 'Kufam', cursive;
+    cursor: pointer;
+    margin: 0.5%;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    padding: 0.2%;
+    border: 2px solid yellow;
+    color: white;
+    transition: all .7s ease-in-out;
+}
+
+#heading button:hover {
+    color: yellow;
+    border: 2px solid white;
+}
+
+#heading h1 {
+    text-align: center;
+    padding-left: 20%;
+    font-size: 2rem;
+    color: white;
+    width: 75%;
+}
+
+#heading h1 sub {
+    font-size: 1.4rem;
+    /* margin-left: 20%; */
+}
+
+nav a {
+    font-family: 'Baloo Bhai 2', cursive;
+    width: calc(100%/4.7);
+    /* padding: 2; */
+    text-align: center;
+    font-size: 1.5rem;
+    margin: auto;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in-out;
+    border-radius: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+nav a:hover {
+    letter-spacing: 2px;
+}
+
+nav a svg {
+    /* margin-right: 10%; */
+    margin: 0 2%;
+    margin-bottom: -1%;
+}
+
+nav {
+    display: flex;
+    padding: 7px 10px;
+    background-color: rgb(185, 185, 185);
+}
+
+.content {
+    color: white;
+    font-size: 1.55rem;
+    margin: 2% 2%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.content-home button {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background: none;
+    padding: 0.2% 2%;
+    cursor: pointer;
+    border: 3px solid white;
+    color: yellow;
+    transition: all .7s ease-in-out;
+    display: block;
+    margin: auto;
+}
+
+.content-home button:hover {
+    color: white;
+    border: 3px solid yellow;
+}
+
+.ans {
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.ques::before {
+    content: '\203A';
+    font-size: 2rem;
+    margin-right: 0.5%;
+}
+
+#cnt-nest-ul {
+    padding-left: 2%;
+    list-style-type: square;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+
+#welcome::first-letter {
+    font-size: 2.5rem !important;
+    border-left: 3px solid white;
+    padding-left: 3px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#txtbook-div a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    transition: all 1.5s ease;
+}
+
+#txtbook-div a::before {
+    content: '\203A';
+    font-size: 2rem;
+    margin-right: 0.5%;
+}
+
+#txtbook-div a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.videos iframe {
+    width: 45%;
+    border: 2px solid white;
+}
+
+.sat p {
+    font-size: 2rem;
+}
+
+.sat p::before {
+    content: '\203A';
+    font-size: 2.8rem;
+    margin-right: 0.5%;
+}
+
+.club-info img {
+    width: 100%;
+    border-bottom: 2px solid white;
+    /* padding: 10px; */
+    /* margin: 0; */
+}
+
+.club-info p {
+    text-align: center;
+}
+
+.club-info {
+    margin: 0 5%;
+    width: 25%;
+    margin: calc(25%/8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+}
+
+.doubt button {
+    font-size: 1.5rem;
+    padding: 0.2%;
+    background: none;
+    color: yellow;
+    border: 2px solid white;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 20px;
+    padding: 0.2% 1%;
+    transition: all .75s ease-in-out;
+    cursor: pointer;
+}
+
+.doubt button:hover {
+    font-size: 1.7rem;
+}
+
+.com-btn {
+    font-size: 1.5rem;
+    padding: 0.2%;
+    background: none;
+    color: yellow;
+    border: 2px solid white;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 20px;
+    padding: 0.2% 1%;
+    cursor: pointer;
+    transition: all .75s ease-in-out;
+}
+
+.com-btn:hover {
+    letter-spacing: 2px;
+}
+
+.join-now-btn {
+    font-size: 1.5rem;
+    /* padding: 0.2%; */
+    background: none;
+    color: yellow;
+    border: 2px solid white;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    /* border-radius: 20px; */
+    margin: 2%;
+    padding: 0 2%;
+    /* padding: 0.2% 1%; */
+    cursor: pointer;
+    transition: all .75s ease-in-out;
+}
+
+.join-now-btn:hover {
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: rgb(39, 39, 39);
+    margin-bottom: -10%;
+    text-align: center;
+    color: white;
+    font-size: 0.8rem !important;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+#smallfooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
